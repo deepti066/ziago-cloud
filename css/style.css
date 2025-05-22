@@ -2915,7 +2915,7 @@ Sticky Header
   width: 100%;
 }
 .mobile-menu .nav-logo img {
-  max-height: 10px;
+  max-height: 60px;
 }
 .mobile-menu .menu-box {
   position: relative;
