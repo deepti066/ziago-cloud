@@ -9,8 +9,8 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 
-<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-<link rel="icon" href="images/favicon.png" type="image/x-icon">
+<link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon">
+<link rel="icon" href="images/favicon.jpg" type="image/x-icon">
 
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -52,7 +52,7 @@
 		<!-- Header Top -->
 
 		<!-- Header Lower -->
-		<div class="header-lower bg-white">
+		<div class="header-lower">
 			<div class="auto-container">
 				<!-- Main box -->
 				<div class="main-box">
@@ -66,7 +66,7 @@
 						<nav class="nav main-menu">
 							<ul class="navigation">
 								</li>
-								<li class="dropdown"><a href="#">Services</a>
+								<li class="dropdown current"><a href="#">Services</a>
 									<ul class="grid-dropdown">
 										<li><a href="hosting-service.html">Hosting Service</a></li>
 										<li><a href="vps.html">Virtual Private Server (VPS)</a></li>
@@ -75,15 +75,15 @@
 										<li><a href="server-colocation.html">Server Colocation</a></li>
 										<li><a href="disaster-recovery.html">Disaster Recovery Solutions</a></li>
 										<li><a href="cloud-storage.html">Cloud Storage & Backup</a></li>
-										<li><a href="software-defined.html">Software-Defined</a></li>
+										<li><a href="software-defined.html">Software-Defined WAN</a></li>
 									</ul>
 								</li>
-								<li><a href="page-projects.html">Pricing</a>
+								<li><a href="page-pricing.html">Pricing</a>
 								</li>
-								<li class="dropdown"><a href="news-grid.html">Company</a>
+								<li class="dropdown"><a href="#">Company</a>
 									<ul>
-										<li><a href="news-grid.html">About</a></li>
-										<li><a href="news-details.html">Contact</a></li>
+										<li><a href="page-about.html">About</a></li>
+										<li><a href="page-contact.html">Contact</a></li>
 									</ul>
 								</li>
 							</ul>
@@ -93,7 +93,7 @@
 						<div class="outer-box">
 							<!-- <a href="#" class="theme-btn btn-style-one"><span class="btn-title">Get a Quote <i class="fa fa-angle-double-right"></i></span></a> -->
 
-							<div class="ui-btn-outer">
+							<!-- <div class="ui-btn-outer">
 								<button class="ui-btn ui-btn search-btn">
 									<span class="icon lnr lnr-icon-search"></span>
 								</button>
@@ -101,7 +101,7 @@
 								<button class="ui-btn ui-btn toggle-hidden-bar">
 									<span class="icon lnr lnr-icon-bars"></span>
 								</button>
-							</div>
+							</div> -->
 
 							<!-- Mobile Nav toggler -->
 							<div class="mobile-nav-toggler"><span class="icon lnr-icon-bars"></span></div>
@@ -255,7 +255,7 @@
 								</div>
 								<div class="help-contact">
 									<p>Need help? Talk to an expert</p>
-									<a href="tel:12463330079">+892 ( 123 ) 112 - 9999</a>
+									<a href="tel:+919678010099">+91 96780-10099</a>
 								</div>
 							</div>
 
@@ -270,83 +270,59 @@
 					</div>
 				</div>
 
-				<!--Start Services Details Content-->
-				<div class="col-xl-8 col-lg-8">
-					<div class="services-details__content">
-					  <img src="images/resource/Private Cloud Solutions 01.jpg" alt="Service Overview" />
-					  <h3 class="mt-4">Service Overview</h3>
-					  <p>Ziago Cloud provides customized private cloud environments tailored for businesses requiring top-tier security, control, and performance. Our dedicated infrastructure ensures complete data isolation, robust privacy, and optimal performance.
-						Each solution is specifically configured to meet business needs, offering advanced resource allocation, data protection, and security protocols. Hosted in secure data centers with redundant power and real-time monitoring, our private clouds safeguard critical data against breaches and disruptions.</p>
-				  
-					  <div class="content mt-40">
-						<div class="text hosting-section">
-							<h3 class="hosting-title">Key Features:</h3>
-							<div class="hosting-grid">
-							  
-							  <div class="hosting-card">
-								<div class="card-header">
-								  <span class="icon">✔️</span>
-								  <h4>Advanced Security</h4>
+						<!-- Content -->
+						<div class="col-xl-8 col-lg-8">
+							<div class="services-details__content">
+							  <img src="images/resource/Private Cloud Solutions 01.jpg" alt="Service Overview" class="img-fluid rounded shadow mb-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" />
+							  <h3 class="mt-3 mb-3 fw-bold" data-aos="fade-up">Service Overview</h3>
+							  <p class="mb-3" data-aos="fade-up" data-aos-delay="200" style="text-align: justify;">
+								Ziago Cloud provides customized private cloud environments tailored for businesses requiring top-tier security, control, and performance. Our dedicated infrastructure ensures complete data isolation, robust privacy, and optimal performance. Each solution is specifically configured to meet business needs, offering advanced resource allocation, data protection, and security protocols. Hosted in secure data centers with redundant power and real-time monitoring, our private clouds safeguard critical data against breaches and disruptions.
+							  </p>
+					
+							  <div class="content hosting-section">
+								<h3 class="hosting-title mb-4 fw-semibold" data-aos="fade-up" data-aos-delay="400">Our Hosting Services Include:</h3>
+								<div class="row g-4">
+								  <div class="col-md-6" data-aos="zoom-in" data-aos-delay="100">
+									<div class="p-4 shadow rounded bg-white h-100">
+									  <h5><i class="fas fa-check-circle text-success me-2"></i>Advanced Security</h5>
+									  <p>Isolated infrastructure with encryption and DDoS protection.</p>
+									</div>
+								  </div>
+								  <div class="col-md-6" data-aos="zoom-in" data-aos-delay="200">
+									<div class="p-4 shadow rounded bg-white h-100">
+									  <h5><i class="fas fa-check-circle text-success me-2"></i>Customization</h5>
+									  <p>Tailored resources and configurations.</p>
+									</div>
+								  </div>
+								  <div class="col-md-6" data-aos="zoom-in" data-aos-delay="300">
+									<div class="p-4 shadow rounded bg-white h-100">
+									  <h5><i class="fas fa-check-circle text-success me-2"></i>Scalability</h5>
+									  <p>Expand resources as demands grow.</p>
+									</div>
+								  </div>
+								  <div class="col-md-6" data-aos="zoom-in" data-aos-delay="400">
+									<div class="p-4 shadow rounded bg-white h-100">
+									  <h5><i class="fas fa-check-circle text-success me-2"></i>Data Management</h5>
+									  <p>Centralized control over storage and backups.</p>
+									</div>
+								  </div>
+								  <div class="col-md-12" data-aos="zoom-in" data-aos-delay="500">
+									<div class="p-4 shadow rounded bg-white h-100">
+									  <h5><i class="fas fa-check-circle text-success me-2"></i>24/7 Support</h5>
+									  <p>Proactive monitoring and expert assistance.</p>
+									</div>
+								  </div>
 								</div>
-								<p>Isolated infrastructure with encryption and DDoS protection.</p>
+					
+								<p class="mt-5" data-aos="fade-up" data-aos-delay="600" style="text-align: justify;">
+								  Ziago Cloud's private cloud solutions provide businesses with complete control, enhanced security, and reliable performance - ideal for managing sensitive data and mission-critical applications.
+								</p>
 							  </div>
-						  
-							  <div class="hosting-card">
-								<div class="card-header">
-								  <span class="icon">✔️</span>
-								  <h4>Customization</h4>
-								</div>
-								<p>Tailored resources and configurations.</p>
-							  </div>
-						  
-							  <div class="hosting-card">
-								<div class="card-header">
-								  <span class="icon">✔️</span>
-								  <h4>Scalability</h4>
-								</div>
-								<p>Expand resources as demands grow.</p>
-							  </div>
-						  
-							  <div class="hosting-card">
-								<div class="card-header">
-								  <span class="icon">✔️</span>
-								  <h4>Data Management</h4>
-								</div>
-								<p> Centralized control over storage and backups.</p>
-							  </div>
-						  
-							  <div class="hosting-card">
-								<div class="card-header">
-								  <span class="icon">✔️</span>
-								  <h4>Compliance</h4>
-								</div>
-								<p>Industry-specific data protection and regulatory adherence.</p>
-							  </div>
-
-							  <div class="hosting-card">
-								<div class="card-header">
-								  <span class="icon">✔️</span>
-								  <h4>24/7 Support</h4>
-								</div>
-								<p>Proactive monitoring and expert assistance.</p>
-							  </div>
-						  
 							</div>
-						  
-							<p class="hosting-summary">
-								Ziago Cloud’s private cloud solutions provide businesses with complete control, enhanced security, and reliable performance — ideal for managing sensitive data and mission-critical applications.
-							</p>
 						  </div>
-						  
 						</div>
 					  </div>
-					</div>
-				  </div>
-				  
-			</div>
-		</div>
-	</section>
-	<!--End Services Details-->
+					</section>
 
 <!-- Main Footer -->
 <footer class="main-footer">
