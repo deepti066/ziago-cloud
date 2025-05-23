@@ -2033,7 +2033,7 @@ Main Header
   position: absolute;
   left: 0;
   top: 0;
-  height: 80%;
+  height: 100%;
   width: 100%;
   background: #191825;
   opacity: 0.5;
@@ -2086,7 +2086,7 @@ Main Header
   display: block;
 }
 .main-header .logo img {
-  max-width: 80%;
+  /* max-width: 80%; */
   height: auto;
 }
 .main-header .main-box {
@@ -2653,6 +2653,7 @@ Header Style One
 }
   .header-style-two .logo-box img {      /*edited now */
     height: 90px;
+    padding-left: 55px;
     /* padding: 10; */
   }
   
@@ -2674,6 +2675,11 @@ Header Style One
 @media only screen and (max-width: 1199px) {
   .header-style-two .main-menu .navigation > li {
     margin-right: 40px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .logo-box {
+    padding-left: 80px;
   }
 }
 
@@ -3554,11 +3560,18 @@ Section Title
     font-size: 78px;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 900px) {
   .main-slider h1 {
-    font-size: 64px;
+    font-size: 62px;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  .main-slider h1 {
+    font-size: 62px;
+  }
+}
+
 @media only screen and (max-width: 599px) {
   .main-slider h1 {
     font-size: 48px;
