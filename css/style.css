@@ -2653,7 +2653,7 @@ Header Style One
 }
   .header-style-two .logo-box img {      /*edited now */
     height: 90px;
-    padding-left: 55px;
+    /* padding-left: 55px; */
     /* padding: 10; */
   }
   
@@ -2680,6 +2680,16 @@ Header Style One
 @media screen and (min-width: 1024px) {
   .logo-box {
     padding-left: 80px;
+  }
+
+  .logo-box img{
+    padding-left: 0%;
+  }
+}
+
+@media screen and (max-width: 1500px){
+  .logo-box img{
+    padding-left: 10px;
   }
 }
 
@@ -2814,6 +2824,12 @@ Sticky Header
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+@media screen and (min-width: 1024px){
+  .sticky-header .inner-container{
+    justify-content: space-around;
+  }
 }
 
 .sticky-header .main-menu .navigation > li {
